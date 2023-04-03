@@ -8,11 +8,6 @@ body {
     background-color: white;
 }
 
-img {
-    width: 20px;
-    height: 20px;
-}
-
 h1 {
     padding: 10px;
     margin: 0px;
@@ -38,5 +33,21 @@ h1 {
 }
 
 .bookmark {
+    width: 10px;
+    height: 10px;
+}
 
+.home {
+    width: 30px;
+    height: 30px;
+}
+
+.profil {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar {
+    background-color: lightslategray;
+    
 }
