@@ -23,6 +23,7 @@ h1 {
 }
 
 .question-box {
+    position: relative;
     background-color:lemonchiffon;
     border: 3px solid yellow;
     border-radius: 10px;
@@ -36,10 +37,6 @@ h1 {
     flex-direction: row;
 }
 
-.question-box {
-    position: relative;
-}
-
 .bookmark {
-    
+
 }
