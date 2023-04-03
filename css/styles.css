@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    box-sizing: content-box;
+    background-color: white;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+h1 {
+    padding: 10px;
+    margin: 0px;
+    background-color: lightcoral;
+    border: 3px solid coral;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.question-box {
+    position: relative;
+    background-color:lemonchiffon;
+    border: 3px solid yellow;
+    border-radius: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.badges {
+    display: flex;
+    flex-direction: row;
+}
+
+.bookmark {
+
+}
