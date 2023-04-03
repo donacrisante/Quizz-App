@@ -17,6 +17,14 @@ h1 {
     text-align: center;
 }
 
+.bookmark {
+    position: absolute;
+    top: -15px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
 .question-box {
     position: relative;
     background-color:lemonchiffon;
@@ -25,35 +33,74 @@ h1 {
     text-align: center;
     flex-wrap: wrap;
     margin-top: 20px;
+    margin-bottom: 20px;
+    height: 150px;
+}
+
+button {
+    background-color: lightgrey;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px;
+    font-family: monospace;
 }
 
 .badges {
     display: flex;
     flex-direction: row;
+    margin-top: 30px;
+    margin-left: 10px;
 }
 
-.bookmark {
-    width: 30px;
-    height: 30px;
+.html-badge {
+    background-color: lightslategray;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
-.home {
-    width: 30px;
-    height: 30px;
+.flexbox-badge {
+    background-color: lightslategray;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
 }
 
-.profil {
-    width: 30px;
-    height: 30px;
+.css-badge {
+    background-color: lightslategray;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.teamwork-badge {
+    background-color: lightslategray;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.train-badge {
+    background-color: lightslategray;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.code-badge{
+    background-color: lightslategray;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
 }
 
 .navbar {
     background-color: lightslategray;
     position: fixed;
+    display: flex;
     bottom: 0px;
     width: 100%;
     padding: 10px;
     left: 0px;
+    justify-content: space-around;
     border: 2px solid black;
     border-left: 0px;
     border-right: 0px;
@@ -61,5 +108,24 @@ h1 {
 }
 
 .icons {
-    
+    position: relative;       
+}
+
+.bookmark-icon {
+    left: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.home {
+    bottom: 20px;
+    left: 0%;
+    width: 30px;
+    height: 30px;
+}
+
+.profil {
+    right: 0%;
+    width: 30px;
+    height: 30px;
 }
