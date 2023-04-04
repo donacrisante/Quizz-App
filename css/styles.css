@@ -8,11 +8,6 @@ body {
     background-color: white;
 }
 
-img {
-    width: 20px;
-    height: 20px;
-}
-
 h1 {
     padding: 10px;
     margin: 0px;
@@ -30,13 +25,108 @@ h1 {
     text-align: center;
     flex-wrap: wrap;
     margin-top: 20px;
+    margin-bottom: 20px;
+    height: 150px;
 }
+
+.bookmark {
+    position: absolute;
+    top: -15px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+button {
+    background-color: lightgrey;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px;
+    font-family: monospace;
+    margin-top: 20px
+    }
 
 .badges {
     display: flex;
     flex-direction: row;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
-.bookmark {
+.html-badge {
+    background-color: lightslategray;
+    border: 1px solid black;
+    border-radius: 5px;
+}
 
+.flexbox-badge {
+    background-color: lightslategray;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.css-badge {
+    background-color: lightslategray;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.teamwork-badge {
+    background-color: lightslategray;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.train-badge {
+    background-color: lightslategray;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.code-badge{
+    background-color: lightslategray;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.navbar {
+    background-color: lightslategray;
+    position: fixed;
+    display: flex;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px;
+    left: 0px;
+    justify-content: space-around;
+    border: 2px solid black;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+.icons {
+    position: relative;       
+}
+
+.bookmark-icon {
+    left: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.home {
+    bottom: 20px;
+    left: 0%;
+    width: 30px;
+    height: 30px;
+}
+
+.profil {
+    right: 0%;
+    width: 30px;
+    height: 30px;
 }
