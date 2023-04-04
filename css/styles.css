@@ -17,14 +17,6 @@ h1 {
     text-align: center;
 }
 
-.bookmark {
-    position: absolute;
-    top: -15px;
-    right: 10px;
-    width: 30px;
-    height: 30px;
-}
-
 .question-box {
     position: relative;
     background-color:lemonchiffon;
@@ -37,17 +29,26 @@ h1 {
     height: 150px;
 }
 
+.bookmark {
+    position: absolute;
+    top: -15px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
 button {
     background-color: lightgrey;
     border-radius: 5px;
     box-shadow: 5px 5px 5px;
     font-family: monospace;
-}
+    margin-top: 20px
+    }
 
 .badges {
     display: flex;
     flex-direction: row;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 10px;
 }
 
