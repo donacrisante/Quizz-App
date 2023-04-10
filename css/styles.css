@@ -37,6 +37,10 @@ h1 {
     height: 30px;
 }
 
+.selected {
+    fill: black;
+}
+
 button {
     background-color: lightgrey;
     border-radius: 5px;
