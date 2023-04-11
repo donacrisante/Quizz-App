@@ -76,21 +76,21 @@ button {
     margin-left: 10px;
 }
 
-.teamwork-badge {
+.watchtv-badge {
     background-color: lightslategray;
     border: 1px solid black;
     border-radius: 5px;
     margin-left: 5px;
 }
 
-.train-badge {
+.practice-badge {
     background-color: lightslategray;
     border: 1px solid black;
     border-radius: 5px;
     margin-left: 10px;
 }
 
-.code-badge {
+.readbooks-badge {
     background-color: lightslategray;
     border: 1px solid black;
     border-radius: 5px;
@@ -98,9 +98,11 @@ button {
 }
 
 .profile-card {
+    position: relative;
     background-color: lemonchiffon;
     border: 3px solid yellow;
     border-radius: 10px;
+    flex-wrap: wrap;
     margin-top: 20px;
     margin-bottom: 20px;
     height: 150px;
