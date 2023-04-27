@@ -145,3 +145,12 @@ button {
     width: 30px;
     height: 30px;
 }
+
+.answer__box-hidden {
+    visibility: hidden;
+}
+
+.answer-box_visible {
+    visibility: visible;
+
+}
