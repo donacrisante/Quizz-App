@@ -37,6 +37,10 @@ h1 {
     height: 30px;
 }
 
+.selected {
+    fill: black;
+}
+
 button {
     background-color: lightgrey;
     border-radius: 5px;
@@ -79,18 +83,29 @@ button {
     margin-left: 5px;
 }
 
-.train-badge {
+.practice-badge {
     background-color: lightslategray;
     border: 1px solid black;
     border-radius: 5px;
     margin-left: 10px;
 }
 
-.code-badge{
+.code-badge {
     background-color: lightslategray;
     border: 1px solid black;
     border-radius: 5px;
     margin-left: 10px;
+}
+
+.profile-card {
+    position: relative;
+    background-color: lemonchiffon;
+    border: 3px solid yellow;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 150px;
 }
 
 .navbar {
@@ -125,7 +140,7 @@ button {
     height: 30px;
 }
 
-.profil {
+.profile {
     right: 0%;
     width: 30px;
     height: 30px;
